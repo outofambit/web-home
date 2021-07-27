@@ -1,6 +1,6 @@
-import { h } from "preact";
+import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
-import style from "./style";
+import style from './style';
 
 const Home = () => {
 
