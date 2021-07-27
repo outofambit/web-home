@@ -28,7 +28,6 @@ const Home = () => {
 						excellent quality, her technique is brilliant and her love of the
 						subject matter shines through.
 					</div>
-					<div class={style.author}>- The Local Newspaper</div>
 				</div>
 			</div>
 		</div>
