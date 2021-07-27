@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Courgette&text=Jane%20Doe");
+/* load "Karla" from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 html, body {
 	height: 100%;
@@ -6,7 +7,7 @@ html, body {
 	padding: 0 1vw;
 	margin: 0;
 	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-weight: 400;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
