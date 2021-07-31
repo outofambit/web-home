@@ -24,9 +24,11 @@ const Home = () => {
 				</div>
 				<div class={style.quote}>
 					<div class={style.details}>
-						Jane presents traditional spanish art with a modern twist. Her work is
-						excellent quality, her technique is brilliant and her love of the
-						subject matter shines through.
+						<strong>evelyn masso</strong> is a person (all the time), an engineering manager (on weekdays), and a poet (on weekends). she currently contributes to p5.js.
+						
+						she likes to talk about mixed identities, queer poetry, and her recent love for running. originally from Ohio, she currently lives on unceded Tongva land (near Los Angeles) and uses she/they pronouns.
+						
+						nowadays you can find most of her activity on github and twitter.
 					</div>
 				</div>
 			</div>
