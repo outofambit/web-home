@@ -12,13 +12,15 @@
 }
 
 .image {
-	height: 30vw;
+	height: 35vw;
 	background-image: url(/assets/profile.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.quote {
+.bioContainer {
+	margin: 40px auto;
+	padding-left: 32px;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
@@ -26,38 +28,12 @@
 	justify-content: center;
 }
 
-.details{
-	font-family: serif;
-	font-size: 32px;
+.bio {
+	color: darkslategray;
+}
+
+.name { 
 	font-style: italic;
-	padding-left: 32px;
-	text-align: center;
-	color: gray;
-	padding-bottom: 32px;
-}
-
-.author{
-	font-size: 16px;
-  color: black;
-}
-
-.bio{
-	margin: 40px auto;
-	display:flex;
-	justify-content: center;
-}
-
-.bioleft, .bioright{
-	max-width: 25%;
-	text-align: justify;
-}
-
-.bioleft{
-	padding-right: 16px;
-}
-
-.bioright{
-	padding-left: 16px;
 }
 
 @media all and (max-width: 728px) {
@@ -65,24 +41,18 @@
 		padding: 16px;
 	}
 
-  .about, .bio {
+  .about {
 		flex-direction: column;
-	}
-
-	.details {
-		padding: 16px 0 0 0;
-		font-size: 1.5rem;
 	}
 
 	.image {
 		height: 50vw;
 		width: 100%;
+		background-position: 50% 80%;
 	}
 
-	.bioleft, .bioright{
-		max-width: 100%;
-		text-align: justify;
-		padding: 0;
+	.bioContainer {
+		margin: 40px auto;
+		padding-left: 0px;
 	}
 }
-

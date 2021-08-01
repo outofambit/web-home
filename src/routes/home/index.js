@@ -22,14 +22,12 @@ const Home = () => {
 				<div class={style.imageContainer}>
 					<div class={style.image} />
 				</div>
-				<div class={style.quote}>
-					<div class={style.details}>
-						<strong>evelyn masso</strong> is a person (all the time), an engineering manager (on weekdays), and a poet (on weekends). she currently contributes to p5.js.
-						
-						she likes to talk about mixed identities, queer poetry, and her recent love for running. originally from Ohio, she currently lives on unceded Tongva land (near Los Angeles) and uses she/they pronouns.
-						
-						nowadays you can find most of her activity on github and twitter.
-					</div>
+				<div class={style.bioContainer}>
+					<p class={style.bio}>
+						<span class={style.name}>evelyn masso</span> is a person (all the time), an engineering manager (on weekdays), and a poet (on weekends). she currently contributes to p5.js.
+					she likes to talk about mixed identities, queer poetry, and her recent love for running. originally from Ohio, she currently lives on unceded Tongva land (near Los Angeles) and uses she/they pronouns.
+					nowadays you can find most of her activity on <a href="https://github.com/outofambit">github</a> and <a href="https://twitter.com/outofambit">twitter</a>.
+					</p>
 				</div>
 			</div>
 		</div>
